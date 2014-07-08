@@ -1,0 +1,7 @@
+# Validation
+
+## Introduction
+
+Whenever data crosses a trust boundary, validation of some form must be done in order to help ensure the data is trustworthy at even a basic level. Whether the data are user credentials or data from a trusted client of it should be validated. Of course, in order to know when to validate data requires an understanding of your applications trust boundaries. There are several ways to determine trust boundaries; some are listed in the Determining Trust Boundaries section below. Once these boundaries are determined the next step is to identify the flow of data and when data must be validated, this is detailed in the section below titled: When to Validate. Finally, the actual act of validation is described in the How to Validate section. After these sections, this chapter will provide several examples of validation and validation failures to look out for. At the end of the chapter an exploration of finding vulnerabilities related to validation will be provided.
+
+Before proceeding, please understand a very basic belief that I hold dear, which is to not let process prohibit you from getting things done. The following sections are an exploration on ways to help determine when and how to validate data as well as how to ensure you validated data correctly. My goal is not to dictate a formal process that you must adhere to. Instead, these sections are meant to push the way you approach validation and application development.
