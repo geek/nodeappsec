@@ -20,7 +20,7 @@ Determining if data coming from a potentially untrustworthy data source depends 
 
 Creating a DFD is a great way to visualize how data sources interact with the application you are creating.  This can be done with a variety of tools from Microsoft Visio and creately.com to using a piece of paper and a pen.  Theses diagrams can often become quite complex, therefore I always find it best to start simply.  Draw a square and write the words “My App” in it.  From here, draw other shapes that represent anything your application will interact with.  After this it’s simply a matter of drawing arrows pointing in the direction that data flows to and from your application.  All of the trust boundaries are likely now determined for you, simply draw a red circle around the square representing your application.  These are the trust boundaries, now go through each of the arrows that points in toward your application and decide if the data can be trusted completely.  One helpful tip, especially if you are under a time crunch, is to rank the trust boundaries in order of trustworthiness.  For example, the user of your application whom you have never met is likely to be less trustworthy than the database where you are storing application data.  Below in Figure 2.1 is an example of a DFD with trust boundaries identified and ranked.  Keep in mind that the application can be broken further into future diagrams and that the first step is to create a visualization of where the data is and isn’t trusted.
 
-<img src="figures/2.1.png" />
+<img src="/figures/2.1.png" />
 
 ***Figure 2.1***
 
